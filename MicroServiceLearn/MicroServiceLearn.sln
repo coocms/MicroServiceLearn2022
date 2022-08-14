@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32519.111
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microserivce.Interface", "Microserivce.Interface\Microserivce.Interface.csproj", "{E839F3FB-F596-4802-B2EC-072CAE0A148A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microserivce.Interface", "Microserivce.Interface\Microserivce.Interface.csproj", "{E839F3FB-F596-4802-B2EC-072CAE0A148A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Model", "Microservice.Model\Microservice.Model.csproj", "{35291992-EDF2-45DF-9BEB-C19A26B2FA97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Model", "Microservice.Model\Microservice.Model.csproj", "{35291992-EDF2-45DF-9BEB-C19A26B2FA97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Service", "Microservice.Service\Microservice.Service.csproj", "{5FEE2E95-C289-4660-99CA-C5F835D5ADB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Service", "Microservice.Service\Microservice.Service.csproj", "{5FEE2E95-C289-4660-99CA-C5F835D5ADB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.MiniApi", "Microservice.MiniApi\Microservice.MiniApi.csproj", "{CD98B6A7-7678-4514-85B6-EDAD550C001A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.MiniApi", "Microservice.MiniApi\Microservice.MiniApi.csproj", "{CD98B6A7-7678-4514-85B6-EDAD550C001A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservice.Business", "Microservice.Business", "{C932A6FB-C368-410A-8E4F-E6C179AD6D79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Framework", "Microservice.Framework\Microservice.Framework.csproj", "{88BDA48D-094D-46C5-AB17-DCBFC65EC656}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Framework", "Microservice.Framework\Microservice.Framework.csproj", "{88BDA48D-094D-46C5-AB17-DCBFC65EC656}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Invoker", "Microservice.Invoker\Microservice.Invoker.csproj", "{21049E91-C3D3-48F6-8626-2BAB0BB72F6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Invoker", "Microservice.Invoker\Microservice.Invoker.csproj", "{21049E91-C3D3-48F6-8626-2BAB0BB72F6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.OcelotGateway", "Microservice.OcelotGateway\Microservice.OcelotGateway.csproj", "{36ABBCCF-8631-4F7C-90C4-26D72150A44F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{21049E91-C3D3-48F6-8626-2BAB0BB72F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21049E91-C3D3-48F6-8626-2BAB0BB72F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21049E91-C3D3-48F6-8626-2BAB0BB72F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36ABBCCF-8631-4F7C-90C4-26D72150A44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36ABBCCF-8631-4F7C-90C4-26D72150A44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36ABBCCF-8631-4F7C-90C4-26D72150A44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36ABBCCF-8631-4F7C-90C4-26D72150A44F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

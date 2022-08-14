@@ -6,16 +6,24 @@ namespace Microservice.Invoker.Controllers
     [ApiController]
     [Route("[controller]")]
     public class TestController : Controller
+
     {
+        IConfiguration _configuration;
+        public TestController(IConfiguration configuration)
+        {
+            
+
+            _configuration = configuration;
+        }
         static int count = 0;
         [HttpGet]
         public IActionResult Index()
         {
             string url = "http://UserMinimalAPIService/api/users/all";
-
+            var l = _configuration.GetValue(typeof(string), "");
             ConsulClient client = new ConsulClient(c =>
             {
-                c.Address = new Uri("http://consul1:8500/");
+                c.Address = new Uri("http://81.68.119.59:8500/");
                 c.Datacenter = "dc1";
             });//找到consul--像DNS
 

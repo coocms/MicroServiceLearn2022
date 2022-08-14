@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\cooc\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.OcelotGateway\\Microservice.OcelotGateway.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\cooc\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.OcelotGateway\\Microservice.OcelotGateway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cooc\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.OcelotGateway\\Microservice.OcelotGateway.csproj",
+        "projectName": "Microservice.OcelotGateway",
+        "projectPath": "C:\\Users\\cooc\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.OcelotGateway\\Microservice.OcelotGateway.csproj",
+        "packagesPath": "C:\\Users\\cooc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cooc\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.OcelotGateway\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cooc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Ocelot": {
+              "target": "Package",
+              "version": "[18.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

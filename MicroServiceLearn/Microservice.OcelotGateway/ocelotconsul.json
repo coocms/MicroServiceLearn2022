@@ -1,0 +1,40 @@
+////*****************************单地址多实例负载均衡********************************
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/{url}", //网关地址--url变量   //冲突的还可以加权重Priority
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "DownstreamPathTemplate": "/{url}", //服务地址--url变量
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "81.68.119.59",
+          "Port": 8081
+        },
+        {
+          "Host": "81.68.119.59",
+          "Port": 8082
+        },
+        {
+          "Host": "81.68.119.59",
+          "Port": 8083
+        },
+        {
+          "Host": "81.68.119.59",
+          "Port": 8084
+        }
+      ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin" //轮询 //"LeastConnection" //最少连接数的服务器  "NoLoadBalance" //不负载均衡  // "CookieStickySessions" //会话粘滞  //
+      }
+      //"LoadBalancerOptions": {
+      //  "Type": "CookieStickySessions",//同一个cookie 负载到同一个服务器
+      //  "Key": "ASP.NET_SessionId",
+      //  "Expiry": 1800000
+      //}
+      //"LoadBalancerOptions": {
+      //  "Type": "CustomPollingLoadBalancer"
+      //}
+    }
+  ]
+}
