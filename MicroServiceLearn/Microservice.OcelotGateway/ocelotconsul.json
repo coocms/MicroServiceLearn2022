@@ -6,35 +6,23 @@
       "UpstreamHttpMethod": [ "Get", "Post" ],
       "DownstreamPathTemplate": "/{url}", //服务地址--url变量
       "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "81.68.119.59",
-          "Port": 8081
-        },
-        {
-          "Host": "81.68.119.59",
-          "Port": 8082
-        },
-        {
-          "Host": "81.68.119.59",
-          "Port": 8083
-        },
-        {
-          "Host": "81.68.119.59",
-          "Port": 8084
-        }
-      ],
+      "UseServiceDiscovery": true,
+      "ServiceName": "UserMinimalAPIService", //consul��������
       "LoadBalancerOptions": {
         "Type": "CustomPollingLoadBalancer" //轮询 //"LeastConnection" //最少连接数的服务器  "NoLoadBalance" //不负载均衡  // "CookieStickySessions" //会话粘滞  //
+      },
+      "FileCacheOptions": {
+        "TtlSeconds": 15, //Second
+        "Region": "UserCache" //���Ե���Api��������
       }
-      //"LoadBalancerOptions": {
-      //  "Type": "CookieStickySessions",//同一个cookie 负载到同一个服务器
-      //  "Key": "ASP.NET_SessionId",
-      //  "Expiry": 1800000
-      //}
-      //"LoadBalancerOptions": {
-      //  "Type": "CustomPollingLoadBalancer"
-      //}
     }
-  ]
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://127.0.0.1:6299", //���ض����ַ
+    "ServiceDiscoveryProvider": {
+      "Host": "81.68.119.59",
+      "Port": 8086,
+      "Type": "Consul" //��Consul�ṩ������, ÿ������ȥconsul
+    }
+  }
 }

@@ -23,7 +23,7 @@ namespace Microservice.OcelotGateway.OcelotExtend.LoadBanlanceExtend
             {
                 Console.WriteLine($"This is {nameof(CustomPollingLoadBalancer)}.Lease");
                 Console.WriteLine($"This is {httpContext.Request.Host.Value}");
-                Console.WriteLine($"This is {string.Join(",", downstreamServices.Select(s => s.HostAndPort.DownstreamHost + s.HostAndPort.DownstreamPort))}");
+                Console.WriteLine($"This is {string.Join(",", downstreamServices.Select(s => s.HostAndPort.DownstreamHost + ": " + s.HostAndPort.DownstreamPort))}");
                 if (_lastIndex >= downstreamServices.Count)
                 {
                     _lastIndex = 0;
