@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cooc\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Invoker\\Microservice.Invoker.csproj": {}
+    "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Invoker\\Microservice.Invoker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cooc\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Invoker\\Microservice.Invoker.csproj": {
+    "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Invoker\\Microservice.Invoker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cooc\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Invoker\\Microservice.Invoker.csproj",
+        "projectUniqueName": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Invoker\\Microservice.Invoker.csproj",
         "projectName": "Microservice.Invoker",
-        "projectPath": "C:\\Users\\cooc\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Invoker\\Microservice.Invoker.csproj",
-        "packagesPath": "C:\\Users\\cooc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cooc\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Invoker\\obj\\",
+        "projectPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Invoker\\Microservice.Invoker.csproj",
+        "packagesPath": "C:\\Users\\coocms\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Invoker\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\cooc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\coocms\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://aka.ms/maui-preview/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

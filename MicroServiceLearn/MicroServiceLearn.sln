@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Framework", "M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Invoker", "Microservice.Invoker\Microservice.Invoker.csproj", "{21049E91-C3D3-48F6-8626-2BAB0BB72F6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.OcelotGateway", "Microservice.OcelotGateway\Microservice.OcelotGateway.csproj", "{36ABBCCF-8631-4F7C-90C4-26D72150A44F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.OcelotGateway", "Microservice.OcelotGateway\Microservice.OcelotGateway.csproj", "{36ABBCCF-8631-4F7C-90C4-26D72150A44F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.AuthenticationCenter", "Microservice.AuthenticationCenter\Microservice.AuthenticationCenter.csproj", "{3640EA75-ED06-4286-845C-1C91CCB962A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{36ABBCCF-8631-4F7C-90C4-26D72150A44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36ABBCCF-8631-4F7C-90C4-26D72150A44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36ABBCCF-8631-4F7C-90C4-26D72150A44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3640EA75-ED06-4286-845C-1C91CCB962A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3640EA75-ED06-4286-845C-1C91CCB962A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3640EA75-ED06-4286-845C-1C91CCB962A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3640EA75-ED06-4286-845C-1C91CCB962A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

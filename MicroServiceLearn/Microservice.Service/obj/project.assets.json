@@ -45,19 +45,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cooc\\.nuget\\packages\\": {}
+    "C:\\Users\\coocms\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cooc\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj",
+      "projectUniqueName": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj",
       "projectName": "Microservice.Service",
-      "projectPath": "C:\\Users\\cooc\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj",
-      "packagesPath": "C:\\Users\\cooc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cooc\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\obj\\",
+      "projectPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj",
+      "packagesPath": "C:\\Users\\coocms\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\cooc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\coocms\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -65,14 +70,16 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://aka.ms/maui-preview/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\cooc\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj": {
-              "projectPath": "C:\\Users\\cooc\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj"
+            "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj": {
+              "projectPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj"
             }
           }
         }
