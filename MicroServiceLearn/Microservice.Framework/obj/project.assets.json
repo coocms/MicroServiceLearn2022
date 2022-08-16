@@ -413,24 +413,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\coocms\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\cooc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj",
+      "projectUniqueName": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj",
       "projectName": "Microservice.Framework",
-      "projectPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj",
-      "packagesPath": "C:\\Users\\coocms\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\obj\\",
+      "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj",
+      "packagesPath": "C:\\Users\\cooc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\coocms\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\cooc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -438,7 +433,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://aka.ms/maui-preview/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -490,7 +484,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

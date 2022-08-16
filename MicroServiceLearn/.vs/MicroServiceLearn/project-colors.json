@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "88bda48d-094d-46c5-ab17-dcbfc65ec656": {
+      "ProjectGuid": "88bda48d-094d-46c5-ab17-dcbfc65ec656",
+      "DisplayName": "Microservice.Framework",
+      "ColorIndex": 0
+    },
+    "3640ea75-ed06-4286-845c-1c91ccb962a9": {
+      "ProjectGuid": "3640ea75-ed06-4286-845c-1c91ccb962a9",
+      "DisplayName": "Microservice.AuthenticationCenter",
+      "ColorIndex": 1
+    },
+    "36abbccf-8631-4f7c-90c4-26d72150a44f": {
+      "ProjectGuid": "36abbccf-8631-4f7c-90c4-26d72150a44f",
+      "DisplayName": "Microservice.OcelotGateway",
+      "ColorIndex": 2
+    },
+    "21049e91-c3d3-48f6-8626-2bab0bb72f6c": {
+      "ProjectGuid": "21049e91-c3d3-48f6-8626-2bab0bb72f6c",
+      "DisplayName": "Microservice.Invoker",
+      "ColorIndex": 3
+    },
+    "cd98b6a7-7678-4514-85b6-edad550c001a": {
+      "ProjectGuid": "cd98b6a7-7678-4514-85b6-edad550c001a",
+      "DisplayName": "Microservice.MiniApi",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "5fee2e95-c289-4660-99ca-c5f835d5adb9": {
+      "ProjectGuid": "5fee2e95-c289-4660-99ca-c5f835d5adb9",
+      "DisplayName": "Microservice.Service",
+      "ColorIndex": 5
+    },
+    "35291992-edf2-45df-9beb-c19a26b2fa97": {
+      "ProjectGuid": "35291992-edf2-45df-9beb-c19a26b2fa97",
+      "DisplayName": "Microservice.Model",
+      "ColorIndex": 6
+    },
+    "e839f3fb-f596-4802-b2ec-072cae0a148a": {
+      "ProjectGuid": "e839f3fb-f596-4802-b2ec-072cae0a148a",
+      "DisplayName": "Microserivce.Interface",
+      "ColorIndex": 7
+    },
+    "2b986308-ea07-49ca-8993-3d2f86273050": {
+      "ProjectGuid": "2b986308-ea07-49ca-8993-3d2f86273050",
+      "DisplayName": "Microservice.UserServiceAPI",
+      "ColorIndex": 8
+    }
+  },
+  "NextColorIndex": 9
+}

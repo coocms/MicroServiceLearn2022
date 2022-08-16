@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.OcelotGateway\\Microservice.OcelotGateway.csproj": {}
+    "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.OcelotGateway\\Microservice.OcelotGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.OcelotGateway\\Microservice.OcelotGateway.csproj": {
+    "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.OcelotGateway\\Microservice.OcelotGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.OcelotGateway\\Microservice.OcelotGateway.csproj",
+        "projectUniqueName": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.OcelotGateway\\Microservice.OcelotGateway.csproj",
         "projectName": "Microservice.OcelotGateway",
-        "projectPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.OcelotGateway\\Microservice.OcelotGateway.csproj",
-        "packagesPath": "C:\\Users\\coocms\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.OcelotGateway\\obj\\",
+        "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.OcelotGateway\\Microservice.OcelotGateway.csproj",
+        "packagesPath": "C:\\Users\\cooc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.OcelotGateway\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\coocms\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\cooc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://aka.ms/maui-preview/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -81,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

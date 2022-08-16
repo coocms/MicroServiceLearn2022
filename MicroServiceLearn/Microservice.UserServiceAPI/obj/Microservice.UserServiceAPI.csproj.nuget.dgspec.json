@@ -1,0 +1,332 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.UserServiceAPI\\Microservice.UserServiceAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj",
+        "projectName": "Microserivce.Interface",
+        "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj",
+        "packagesPath": "C:\\Users\\cooc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cooc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://aka.ms/maui-preview/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\Microservice.Model.csproj": {
+                "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\Microservice.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj",
+        "projectName": "Microservice.Framework",
+        "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj",
+        "packagesPath": "C:\\Users\\cooc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cooc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://aka.ms/maui-preview/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[1.6.10.7, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\Microservice.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\Microservice.Model.csproj",
+        "projectName": "Microservice.Model",
+        "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\Microservice.Model.csproj",
+        "packagesPath": "C:\\Users\\cooc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cooc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://aka.ms/maui-preview/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj",
+        "projectName": "Microservice.Service",
+        "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj",
+        "packagesPath": "C:\\Users\\cooc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cooc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://aka.ms/maui-preview/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj": {
+                "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.UserServiceAPI\\Microservice.UserServiceAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.UserServiceAPI\\Microservice.UserServiceAPI.csproj",
+        "projectName": "Microservice.UserServiceAPI",
+        "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.UserServiceAPI\\Microservice.UserServiceAPI.csproj",
+        "packagesPath": "C:\\Users\\cooc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.UserServiceAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cooc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://aka.ms/maui-preview/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj": {
+                "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj"
+              },
+              "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj": {
+                "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj"
+              },
+              "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj": {
+                "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
