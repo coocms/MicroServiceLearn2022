@@ -30,6 +30,7 @@ namespace Microservice.OcelotGateway.OcelotExtend.LoadBanlanceExtend
                 }
 
                 var next = downstreamServices[_lastIndex];
+                Console.WriteLine("Request To " + next.HostAndPort.DownstreamPort.ToString());
                 _lastIndex++;
                 return new OkResponse<ServiceHostAndPort>(next.HostAndPort);
             }

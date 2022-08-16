@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.UserServiceAPI\\Microservice.UserServiceAPI.csproj": {}
+    "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.UserServiceAPI\\Microservice.UserServiceAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj": {
+    "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj",
+        "projectUniqueName": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj",
         "projectName": "Microserivce.Interface",
-        "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj",
-        "packagesPath": "C:\\Users\\cooc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\obj\\",
+        "projectPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj",
+        "packagesPath": "C:\\Users\\coocms\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\cooc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\coocms\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://aka.ms/maui-preview/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -29,8 +34,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\Microservice.Model.csproj": {
-                "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\Microservice.Model.csproj"
+              "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\Microservice.Model.csproj": {
+                "projectPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\Microservice.Model.csproj"
               }
             }
           }
@@ -59,21 +64,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj": {
+    "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj",
+        "projectUniqueName": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj",
         "projectName": "Microservice.Framework",
-        "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj",
-        "packagesPath": "C:\\Users\\cooc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\obj\\",
+        "projectPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj",
+        "packagesPath": "C:\\Users\\coocms\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\cooc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\coocms\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,6 +90,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://aka.ms/maui-preview/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -132,21 +142,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\Microservice.Model.csproj": {
+    "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\Microservice.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\Microservice.Model.csproj",
+        "projectUniqueName": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\Microservice.Model.csproj",
         "projectName": "Microservice.Model",
-        "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\Microservice.Model.csproj",
-        "packagesPath": "C:\\Users\\cooc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\obj\\",
+        "projectPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\Microservice.Model.csproj",
+        "packagesPath": "C:\\Users\\coocms\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\cooc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\coocms\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -154,6 +168,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://aka.ms/maui-preview/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -187,21 +202,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj": {
+    "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj",
+        "projectUniqueName": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj",
         "projectName": "Microservice.Service",
-        "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj",
-        "packagesPath": "C:\\Users\\cooc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\obj\\",
+        "projectPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj",
+        "packagesPath": "C:\\Users\\coocms\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\cooc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\coocms\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -209,6 +228,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://aka.ms/maui-preview/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -216,8 +236,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj": {
-                "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj"
+              "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj": {
+                "projectPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj"
               }
             }
           }
@@ -246,21 +266,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.UserServiceAPI\\Microservice.UserServiceAPI.csproj": {
+    "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.UserServiceAPI\\Microservice.UserServiceAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.UserServiceAPI\\Microservice.UserServiceAPI.csproj",
+        "projectUniqueName": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.UserServiceAPI\\Microservice.UserServiceAPI.csproj",
         "projectName": "Microservice.UserServiceAPI",
-        "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.UserServiceAPI\\Microservice.UserServiceAPI.csproj",
-        "packagesPath": "C:\\Users\\cooc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.UserServiceAPI\\obj\\",
+        "projectPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.UserServiceAPI\\Microservice.UserServiceAPI.csproj",
+        "packagesPath": "C:\\Users\\coocms\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.UserServiceAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\cooc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\coocms\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -268,6 +292,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://aka.ms/maui-preview/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -275,14 +300,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj": {
-                "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj"
+              "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj": {
+                "projectPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microserivce.Interface\\Microserivce.Interface.csproj"
               },
-              "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj": {
-                "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj"
+              "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj": {
+                "projectPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Framework\\Microservice.Framework.csproj"
               },
-              "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj": {
-                "projectPath": "C:\\Users\\cooc\\Desktop\\github\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj"
+              "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj": {
+                "projectPath": "C:\\Users\\coocms\\Desktop\\MicroServiceLearn2022\\MicroServiceLearn\\Microservice.Service\\Microservice.Service.csproj"
               }
             }
           }
@@ -324,7 +349,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -21,7 +21,7 @@
     "BaseUrl": "http://127.0.0.1:6299", //���ض����ַ
     "ServiceDiscoveryProvider": {
       "Host": "81.68.119.59",
-      "Port": 8086,
+      "Port": 8500,
       "Type": "Consul" //��Consul�ṩ������, ÿ������ȥconsul
     }
   }

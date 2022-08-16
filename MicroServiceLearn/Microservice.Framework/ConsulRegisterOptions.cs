@@ -20,6 +20,7 @@
         /// <summary>
         /// 心跳检查地址
         /// </summary>
+        public bool EnableHealthCheck { get; set; } = true;
         public string? HealthCheckUrl { get; set; }
         /// <summary>
         /// 心跳频率

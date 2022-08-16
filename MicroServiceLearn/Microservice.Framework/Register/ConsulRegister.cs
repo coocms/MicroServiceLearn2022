@@ -28,6 +28,9 @@ namespace Microservice.Framework.Register
             string localIp = GetLocalIp();
             string clientIp = _configuration.GetSection("ConsulRegisterOptions")["IP"];
             string urls = _configuration["urls"];
+            if(!string.IsNullOrEmpty(urls))
+                _consulRegisterOptions.Port = int.Parse(urls.Split(':').LastOrDefault().ToString());
+
             if (clientIp == "0.0.0.0")
             {
                 _consulRegisterOptions.IP = localIp;
@@ -44,22 +47,41 @@ namespace Microservice.Framework.Register
             }))
 
             {
-                await client.Agent.ServiceRegister(new AgentServiceRegistration()
+                AgentServiceRegistration agentServiceRegistration;
+                if (_consulRegisterOptions.EnableHealthCheck)
                 {
-                    
-                    ID = $"{this._consulRegisterOptions.GroupName}-{this._consulRegisterOptions.IP}-{this._consulRegisterOptions.Port}",//唯一Id
-                    Name = this._consulRegisterOptions.GroupName,//组名称-Group
-                    Address = this._consulRegisterOptions.IP,
-                    Port = this._consulRegisterOptions.Port,
-                    Tags = new string[] { this._consulRegisterOptions.Tag ?? "Tags is null" },
-                    Check = new AgentServiceCheck()
+                    agentServiceRegistration = new AgentServiceRegistration()
                     {
-                        Interval = TimeSpan.FromSeconds(this._consulRegisterOptions.Interval),
-                        HTTP = this._consulRegisterOptions.HealthCheckUrl,
-                        Timeout = TimeSpan.FromSeconds(this._consulRegisterOptions.Timeout),
-                        DeregisterCriticalServiceAfter = TimeSpan.FromSeconds(this._consulRegisterOptions.DeregisterCriticalServiceAfter),
-                    }
-                });
+
+                        ID = $"{this._consulRegisterOptions.GroupName}-{this._consulRegisterOptions.IP}-{this._consulRegisterOptions.Port}",//唯一Id
+                        Name = this._consulRegisterOptions.GroupName,//组名称-Group
+                        Address = this._consulRegisterOptions.IP,
+                        Port = this._consulRegisterOptions.Port,
+                        Tags = new string[] { this._consulRegisterOptions.Tag ?? "Tags is null" },
+                        Check = new AgentServiceCheck()
+                        {
+                            Interval = TimeSpan.FromSeconds(this._consulRegisterOptions.Interval),
+                            HTTP = this._consulRegisterOptions.HealthCheckUrl,
+                            Timeout = TimeSpan.FromSeconds(this._consulRegisterOptions.Timeout),
+                            DeregisterCriticalServiceAfter = TimeSpan.FromSeconds(this._consulRegisterOptions.DeregisterCriticalServiceAfter),
+                        }
+                    };
+                }
+                else
+                {
+                    agentServiceRegistration = new AgentServiceRegistration()
+                    {
+
+                        ID = $"{this._consulRegisterOptions.GroupName}-{this._consulRegisterOptions.IP}-{this._consulRegisterOptions.Port}",//唯一Id
+                        Name = this._consulRegisterOptions.GroupName,//组名称-Group
+                        Address = this._consulRegisterOptions.IP,
+                        Port = this._consulRegisterOptions.Port,
+                        Tags = new string[] { this._consulRegisterOptions.Tag ?? "Tags is null" }
+                    };
+                }
+                
+
+                await client.Agent.ServiceRegister(agentServiceRegistration);
                 Console.WriteLine($"{JsonConvert.SerializeObject(this._consulRegisterOptions)} 完成注册");
             }
         }

@@ -69,17 +69,17 @@ namespace Zhaoxi.NET6.AuthenticationCenter.Controllers
         public string Login([FromForm] string name, [FromForm] string password)
         {
             Console.WriteLine($"This is Login name={name} password={password}");
-            if ("Eleven".Equals(name, StringComparison.OrdinalIgnoreCase) && "123456".Equals(password))//应该数据库
+            if ("coocms".Equals(name, StringComparison.OrdinalIgnoreCase) && "123456".Equals(password))//应该数据库
             {
                 CurrentUserModel currentUser = new CurrentUserModel()
                 {
                     Id = 123,
-                    Account = "xuyang@zhaoxiEdu.Net",
-                    EMail = "57265177@qq.com",
+                    Account = "coocms.Net",
+                    EMail = "623648048@qq.com",
                     Mobile = "18664876671",
                     Sex = 1,
                     Age = 33,
-                    Name = "Eleven",
+                    Name = "coocms",
                     Role = "Admin"
                 };
 

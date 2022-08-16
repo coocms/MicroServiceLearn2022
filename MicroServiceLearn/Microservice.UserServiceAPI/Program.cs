@@ -1,5 +1,6 @@
 using Microserivce.Interface;
 using Microservice.Framework;
+using Microservice.Framework.Register;
 using Microservice.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -12,13 +13,16 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddTransient<IUserService, UserService>();
+builder.Services.AddTransient<IConsulRegister, ConsulRegister>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();//如果需要获取HttpContext
+builder.Services.Configure<ConsulRegisterOptions>(builder.Configuration.GetSection("ConsulRegisterOptions"));
+builder.Services.Configure<ConsulClientOptions>(builder.Configuration.GetSection("ConsulClientOptions"));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-//#region JWT
+#region JWT
 JWTTokenOptions tokenOptions = new JWTTokenOptions();
 builder.Configuration.Bind("JWTTokenOptions", tokenOptions);
 
@@ -41,10 +45,15 @@ builder.Services
     };
 });
 
-//#endregion
+#endregion
 
 
 var app = builder.Build();
+
+#region Consul 注册
+app.UseHealthCheckMiddleware("/Api/Health/Index");//心跳请求响应
+app.Services.GetService<IConsulRegister>()!.UseConsulRegist();
+#endregion
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
