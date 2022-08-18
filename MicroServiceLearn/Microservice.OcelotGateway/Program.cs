@@ -7,17 +7,25 @@ using Microservice.Framework;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Ocelot.Provider.Polly;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 //builder.Services.AddControllersWithViews();
 builder.Configuration.AddJsonFile("ocelotconsul.json", optional: false, reloadOnChange: true);
-builder.Services.AddOcelot().AddCustomLoadBalancer((serviceProvider, Route, serviceDiscoveryProvider) => new CustomPollingLoadBalancer(serviceDiscoveryProvider.Get)).AddConsul()
+builder.Services.AddOcelot().AddCustomLoadBalancer((serviceProvider, Route, serviceDiscoveryProvider) => new CustomPollingLoadBalancer(serviceDiscoveryProvider.Get))
+    .AddConsul()
+    .AddPolly()
     .AddCacheManager(x =>
     {
         x.WithDictionaryHandle();//默认字典存储
     }); //注入
+
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 
 #region jwt校验  HS
 JWTTokenOptions tokenOptions = new JWTTokenOptions();
@@ -48,7 +56,17 @@ builder.Services
 
 
 var app = builder.Build();
-
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c=>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Ocelot V1");
+        c.SwaggerEndpoint("/webapiV1/swagger/v1/swagger.json", "WebAPI V1");
+        c.SwaggerEndpoint("/webapiV1/swagger/v1/swagger.json", "WebAPI V2");
+    });
+}
 // Configure the HTTP request pipeline.
 app.UseOcelot();//直接替换了管道模型
 

@@ -4,7 +4,7 @@
     {
       "UpstreamPathTemplate": "/{url}", //网关地址--url变量   //冲突的还可以加权重Priority
       "UpstreamHttpMethod": [ "Get", "Post" ],
-      "DownstreamPathTemplate": "/{url}", //服务地址--url变量
+      "DownstreamPathTemplate": "/T/{url}", //服务地址--url变量
       "DownstreamScheme": "http",
       "UseServiceDiscovery": true,
       "ServiceName": "UserMinimalAPIService", //consul��������
@@ -14,13 +14,49 @@
       "FileCacheOptions": {
         "TtlSeconds": 15, //Second
         "Region": "UserCache" //���Ե���Api��������
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [ "eleven", "seven" ], //白名单 ClientId 区分大小写
+        "EnableRateLimiting": true,
+        "Period": "5m", //1s, 5m, 1h, 1d
+        "PeriodTimespan": 30, //多少秒之后客户端可以重试
+        "Limit": 5 //统计时间段内允许的最大请求数量
+      },
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3, //允许多少个异常请求
+        "DurationOfBreak": 10000, // 熔断的时间，单位为ms
+        "TimeoutValue": 2000 //单位ms 如果下游请求的处理时间超过多少则自如将请求设置为超时 默认90秒
       }
+    },
+    { //这里开始添加不同下游实例
+      "UpstreamPathTemplate": "/webapiV1/swagger/v1/swagger.json",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 5001 //服务端口
+        }
+      ],
+      "DownstreamPathTemplate": "/swagger/v1/swagger.json",
+      "DownstreamScheme": "http"
+    },
+    {
+      "UpstreamPathTemplate": "/webapiV2/swagger/v2/swagger.json",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 5002 //服务端口
+        }
+      ],
+      "DownstreamPathTemplate": "/swagger/v1/swagger.json",
+      "DownstreamScheme": "http"
     }
   ],
   "GlobalConfiguration": {
     "BaseUrl": "http://127.0.0.1:6299", //���ض����ַ
     "ServiceDiscoveryProvider": {
-      "Host": "81.68.119.59",
+      "Host": "121.5.35.98",
       "Port": 8500,
       "Type": "Consul" //��Consul�ṩ������, ÿ������ȥconsul
     }
