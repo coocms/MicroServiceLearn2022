@@ -22,7 +22,7 @@ namespace Microservice.UserServiceAPI.Controllers
             _configuration = configuration;
             _httpContextAccessor = httpContextAccessor;
         }
-        [Authorize]//需要授权
+        //[Authorize]//需要授权
         [HttpGet]
         public IActionResult GetUserAll()
         {

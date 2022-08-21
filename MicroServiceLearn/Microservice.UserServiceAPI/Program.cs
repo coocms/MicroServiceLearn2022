@@ -17,6 +17,8 @@ builder.Services.AddTransient<IConsulRegister, ConsulRegister>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();//如果需要获取HttpContext
 builder.Services.Configure<ConsulRegisterOptions>(builder.Configuration.GetSection("ConsulRegisterOptions"));
 builder.Services.Configure<ConsulClientOptions>(builder.Configuration.GetSection("ConsulClientOptions"));
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
